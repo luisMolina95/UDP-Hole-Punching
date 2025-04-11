@@ -20,7 +20,7 @@ int main() {
 
     const char* envPort = getenv("PORT");
     if(envPort == NULL){
-        envPort = "12345";
+        envPort = "8082";
     }
     unsigned long port = strtoul(envPort, NULL, 10);
 
